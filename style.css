@@ -7,12 +7,39 @@ body {
   width: auto;
   height: auto;
   margin: auto;
-  background-color: darkolivegreen;
+  background-color: rgba(41, 153, 205, 0.753);
 
 }
 
 .title.main {
-  color: rgb(230, 102, 23); 
+  color: rgb(200, 252, 187);
+  font-size: 5em; 
   font-weight: 600;
+  font-style: oblique;
   text-align: center;
+  border-bottom: 2px solid aliceblue;
+  display: flexbox;
+} 
+
+.menurecipes {
+  color: rgb(200, 252, 187);
+  font-size: 2em; 
+  font-weight: 600;
+  font-style: oblique;
+  text-align: center;
+  border-bottom: 2px solid aliceblue;
+  display: flexbox;
+  margin: 0; 
+  padding: 5px;
+}
+
+.feijoada, .lemonade, .brigadeiro{
+  background-color: rgb(200, 252, 187);
+  font-size: 1em; 
+  font-weight: 600;
+  font-style: oblique;
+  text-align: center;
+  border-bottom: 2px solid aliceblue;
+  margin: 5px;
+  display: flexbox;
 }
